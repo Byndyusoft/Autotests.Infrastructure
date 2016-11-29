@@ -67,9 +67,9 @@
       <Project>{e7b86463-a6b6-40d6-80a2-23f786796d9f}</Project>
       <Name>Shared</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TestInfrastructure.UI\TestInfrastructure.UI.csproj">
+    <ProjectReference Include="..\TestInfrastructure.UI\Selenium.Infrastructure.csproj">
       <Project>{7513ff6b-6f51-4105-9f14-5cdaf26f2afd}</Project>
-      <Name>TestInfrastructure.UI</Name>
+      <Name>Selenium.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

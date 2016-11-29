@@ -60,9 +60,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\TestInfrastructure.UI\TestInfrastructure.UI.csproj">
+    <ProjectReference Include="..\TestInfrastructure.UI\Selenium.Infrastructure.csproj">
       <Project>{7513ff6b-6f51-4105-9f14-5cdaf26f2afd}</Project>
-      <Name>TestInfrastructure.UI</Name>
+      <Name>Selenium.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
