@@ -18,10 +18,10 @@ namespace TestInfrastructure.UI
             PageFactory.InitElements(this, new DefaultElementLocator(RootElement));
         }
 
-        protected static TPageElement GetPageElement<TPageElement>(TPageElement pageElement, IWebElement webElement)
+        protected static TPageElement GetPageElement<TPageElement>(TPageElement pageElement, IWebElement rootElement)
             where TPageElement : PageElementInContextBase
         {
-            PageFactory.InitElements(pageElement, new DefaultElementLocator(webElement));
+            PageFactory.InitElements(pageElement, new DefaultElementLocator(rootElement));
             return pageElement;
         }
     }
