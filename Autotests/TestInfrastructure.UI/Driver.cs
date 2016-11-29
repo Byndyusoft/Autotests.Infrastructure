@@ -187,13 +187,13 @@ namespace TestInfrastructure.UI
 
             public Options SetBaseUrl(string baseUrl)
             {
-                DriverSettings.BaseUrl = $"http://{baseUrl}/#/";
+                DriverSettings.BaseUrl = $"http://{baseUrl}/#/"; // ToDo: delete "/#/"!
                 return this;
             }
 
             public Options SetBaseUrl(string baseUrl, string siteLogin, string sitePassword)
             {
-                DriverSettings.BaseUrl = $"http://{siteLogin}:{sitePassword}@{baseUrl}/#/";
+                DriverSettings.BaseUrl = $"http://{siteLogin}:{sitePassword}@{baseUrl}/#/"; // ToDo: delete "/#/"!
                 return this;
             }
 
