@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Linq;
 
-namespace TestInfrastructure.UI.Extensions
+namespace Selenium.Infrastructure.Extensions
 {
     public static class DoubleExtensions
     {

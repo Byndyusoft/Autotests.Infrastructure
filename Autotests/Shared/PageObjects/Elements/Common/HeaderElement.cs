@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using TestInfrastructure.UI;
+using Selenium.Infrastructure;
 
 namespace Shared.PageObjects.Elements.Common
 {

@@ -1,6 +1,6 @@
+using Selenium.Infrastructure;
 using Shared.PageObjects.Elements;
 using Shared.PageObjects.Elements.Common;
-using TestInfrastructure.UI;
 
 namespace Shared.PageObjects.Pages.Common
 {

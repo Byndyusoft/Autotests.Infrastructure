@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace TestInfrastructure.UI
+namespace Selenium.Infrastructure
 {
     public abstract class PageElementInContextBase
     {

@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium.Support.UI;
+using Selenium.Infrastructure;
 using Shared.PageObjects;
-using TestInfrastructure.UI;
 
 namespace Shared.Extensions
 {

@@ -1,4 +1,4 @@
-﻿namespace TestInfrastructure.UI
+﻿namespace Selenium.Infrastructure
 {
     public enum WebDriverType
     {

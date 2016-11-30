@@ -1,4 +1,4 @@
-﻿using TestInfrastructure.UI;
+﻿using Selenium.Infrastructure;
 
 namespace YandexSite.PageObjects
 {

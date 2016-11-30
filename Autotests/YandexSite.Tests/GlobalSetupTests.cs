@@ -3,7 +3,7 @@ using System.Configuration;
 using System.IO;
 using System.Reflection;
 using NUnit.Framework;
-using TestInfrastructure.UI;
+using Selenium.Infrastructure;
 
 namespace YandexSite.Tests
 {
@@ -47,7 +47,7 @@ namespace YandexSite.Tests
                 .SetupWebDriverWait(webDriverWaitTimeout, webDriverWaitPollingInterval)
                 .SetWebDriverTimeoutsImplicitlyWait(webDriverTimeoutsImplicitlyWait)
                 .SetWebDriverTimeoutsPageLoadTimeout(webDriverTimeoutsPageLoadTimeout)
-                .SetBaseUrl(baseUrl, siteLogin, sitePassword)
+                .SetBaseUrl(baseUrl)
                 ;
         }
 

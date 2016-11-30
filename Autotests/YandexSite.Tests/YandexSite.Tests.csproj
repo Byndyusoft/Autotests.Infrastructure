@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="GlobalSetupTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\MainPage\MainPageTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -67,6 +68,10 @@
     <ProjectReference Include="..\TestInfrastructure.UI\Selenium.Infrastructure.csproj">
       <Project>{7513ff6b-6f51-4105-9f14-5cdaf26f2afd}</Project>
       <Name>Selenium.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YandexSite.Logic\YandexSite.Logic.csproj">
+      <Project>{3c07ebb8-a09f-4345-a9e9-4ca6b56bcc61}</Project>
+      <Name>YandexSite.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

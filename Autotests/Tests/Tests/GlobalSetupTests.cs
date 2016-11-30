@@ -3,7 +3,7 @@ using System.Configuration;
 using System.IO;
 using System.Reflection;
 using NUnit.Framework;
-using TestInfrastructure.UI;
+using Selenium.Infrastructure;
 
 namespace Tests.Tests
 {

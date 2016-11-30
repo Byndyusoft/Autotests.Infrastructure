@@ -7,8 +7,8 @@
     <ProjectGuid>{7513FF6B-6F51-4105-9F14-5CDAF26F2AFD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestInfrastructure.UI</RootNamespace>
-    <AssemblyName>TestInfrastructure.UI</AssemblyName>
+    <RootNamespace>Selenium.Infrastructure</RootNamespace>
+    <AssemblyName>Selenium.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
