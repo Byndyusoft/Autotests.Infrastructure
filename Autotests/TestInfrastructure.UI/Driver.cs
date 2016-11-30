@@ -7,7 +7,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 
-namespace TestInfrastructure.UI
+namespace Selenium.Infrastructure
 {
     public sealed class Driver : IDisposable
     {
@@ -187,13 +187,13 @@ namespace TestInfrastructure.UI
 
             public Options SetBaseUrl(string baseUrl)
             {
-                DriverSettings.BaseUrl = $"http://{baseUrl}/#/"; // ToDo: delete "/#/"!
+                DriverSettings.BaseUrl = $"http://{baseUrl}";
                 return this;
             }
 
             public Options SetBaseUrl(string baseUrl, string siteLogin, string sitePassword)
             {
-                DriverSettings.BaseUrl = $"http://{siteLogin}:{sitePassword}@{baseUrl}/#/"; // ToDo: delete "/#/"!
+                DriverSettings.BaseUrl = $"http://{siteLogin}:{sitePassword}@{baseUrl}";
                 return this;
             }
 
