@@ -7,7 +7,7 @@
     <ProjectGuid>{AE639369-EF42-4A4E-BA95-994B64902C85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YandexSite.PageObjects</RootNamespace>
+    <RootNamespace>ByndyuSoft.YandexSite.PageObjects</RootNamespace>
     <AssemblyName>YandexSite.PageObjects</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

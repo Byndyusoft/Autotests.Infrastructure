@@ -1,6 +1,6 @@
-﻿using YandexSite.PageObjects;
+﻿using ByndyuSoft.YandexSite.PageObjects;
 
-namespace YandexSite.Logic
+namespace ByndyuSoft.YandexSite.Logic
 {
     public abstract class YandexBase<TPageObject> where TPageObject : YandexPage<TPageObject>, new()
     {

@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace YandexSite.PageObjects
+namespace ByndyuSoft.YandexSite.PageObjects
 {
     public class MainPagePageObject : YandexPage<MainPagePageObject>
     {

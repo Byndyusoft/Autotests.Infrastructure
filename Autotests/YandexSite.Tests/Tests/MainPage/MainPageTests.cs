@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
+using ByndyuSoft.YandexSite.Logic;
 using NUnit.Framework;
-using YandexSite.Logic;
 
-namespace YandexSite.Tests.Tests.MainPage
+namespace ByndyuSoft.YandexSite.Tests.Tests.MainPage
 {
     [TestFixture]
     public class MainPageTests

@@ -7,7 +7,7 @@
     <ProjectGuid>{3C07EBB8-A09F-4345-A9E9-4CA6B56BCC61}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YandexSite.Logic</RootNamespace>
+    <RootNamespace>ByndyuSoft.YandexSite.Logic</RootNamespace>
     <AssemblyName>YandexSite.Logic</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

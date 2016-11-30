@@ -1,21 +1,29 @@
 ﻿using System.Threading;
+using ByndyuSoft.YandexSite.PageObjects;
 using Selenium.Infrastructure;
-using YandexSite.PageObjects;
 
-namespace YandexSite.Logic
+namespace ByndyuSoft.YandexSite.Logic
 {
-    public class MainPage : YandexBase<MainPagePageObject>
+    public sealed class MainPage : YandexBase<MainPagePageObject>
     {
-        public MainPage()
+        private MainPage()
         {
-            Driver.Instance.GoToBaseUrl();
-            PageObject = MainPagePageObject.GetPage();
-            Thread.Sleep(1000); // ToDo: !!!
+            //Driver.Instance.GoToBaseUrl();
+            //PageObject = MainPagePageObject.GetPage();
+            //Thread.Sleep(1000); // ToDo: !!!
         }
 
-        public MainPage(MainPagePageObject page)
+        private MainPage(MainPagePageObject page)
         {
             PageObject = page;
+        }
+
+        public static MainPage OpenPage()
+        {
+            Driver.Instance.GoToBaseUrl();
+            var page = MainPagePageObject.GetPage();
+            Thread.Sleep(1000); // ToDo: !!!
+            return new MainPage(page);
         }
 
         //protected sealed override MainPagePageObject PageObject { get; set; }

@@ -5,7 +5,7 @@ using System.Reflection;
 using NUnit.Framework;
 using Selenium.Infrastructure;
 
-namespace YandexSite.Tests
+namespace ByndyuSoft.YandexSite.Tests
 {
     [SetUpFixture]
     public class GlobalSetupTests
