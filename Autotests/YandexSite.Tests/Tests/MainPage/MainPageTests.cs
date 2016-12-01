@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using ByndyuSoft.YandexSite.Logic;
 using NUnit.Framework;
 
 namespace ByndyuSoft.YandexSite.Tests.Tests.MainPage
@@ -11,9 +10,10 @@ namespace ByndyuSoft.YandexSite.Tests.Tests.MainPage
         [Test]
         public void InputTextAndSearch()
         {
-            var mainPage = SiteManager.OpenMainPage();
-            mainPage.SetTextInInputBox("12345");
-            mainPage.SearchButtonCLick();
+            var mainPage = Logic.MainPage
+                .OpenPage()
+                .SetTextInInputBox("12345")
+                .SearchButtonCLick();
 
             Debugger.Break();
         }

@@ -8,12 +8,9 @@ namespace ByndyuSoft.YandexSite.Logic
     {
         private MainPage()
         {
-            //Driver.Instance.GoToBaseUrl();
-            //PageObject = MainPagePageObject.GetPage();
-            //Thread.Sleep(1000); // ToDo: !!!
         }
 
-        private MainPage(MainPagePageObject page)
+        public MainPage(MainPagePageObject page)
         {
             PageObject = page;
         }
@@ -26,18 +23,18 @@ namespace ByndyuSoft.YandexSite.Logic
             return new MainPage(page);
         }
 
-        //protected sealed override MainPagePageObject PageObject { get; set; }
-
         protected override MainPagePageObject PageObject { get; set; }
 
-        public void SetTextInInputBox(string text)
+        public MainPage SetTextInInputBox(string text)
         {
             PageObject.SetTextInInputBox(text);
+            return this;
         }
 
-        public void SearchButtonCLick()
+        public MainPage SearchButtonCLick()
         {
             PageObject.SearchButtonClick();
+            return this;
         }
     }
 }

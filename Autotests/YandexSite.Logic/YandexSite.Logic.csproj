@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="MainPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SiteManager.cs" />
     <Compile Include="YandexBase.cs" />
   </ItemGroup>
   <ItemGroup>

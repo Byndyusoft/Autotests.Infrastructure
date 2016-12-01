@@ -6,7 +6,7 @@ namespace ByndyuSoft.YandexSite.PageObjects
     public class MainPagePageObject : YandexPage<MainPagePageObject>
     {
 
-        [FindsBy(How = How.Id, Using = "text")]
+        [FindsBy(How = How.Name, Using = "text")]
         private IWebElement InputBox { get; set; }
 
         [FindsBy(How = How.ClassName, Using = "suggest2-form__button")]
